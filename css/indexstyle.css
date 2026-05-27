@@ -1,0 +1,61 @@
+:root {
+    --bg-color: rgb(233, 232, 237);
+    --titleColor: rgb(62, 62, 111);
+    --textColor: rgb(168, 99, 177);
+    --indexTitleColor: rgb(107, 66, 128);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--textColor);
+    align-content: center;
+    width: 100%;
+    display: flex;
+}
+
+h1 {
+    font-size: 35px;
+    color: var(--titleColor);
+}
+
+h2 {
+    font-size: 25px;
+    color: var(--titleColor);
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--indexTitleColor);
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+li {
+    list-style: circle;
+    margin-bottom: 15px;
+}
+
+nav {
+    width: 20%;
+    padding: 20px 10px 20px 5px;
+    border-right: 1px solid var(--indexTitleColor);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 20px;
+}
+
+.indexUnidad {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    gap: 50px;
+}
